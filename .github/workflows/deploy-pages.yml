@@ -21,10 +21,12 @@ jobs:
         run:  npm i -g @slidev/cli
       - name: Build
         run: yes | slidev build --base /event-storming-to-code/
+      - name: Debug
+        run: pwd && ls -al
       - name: Deploy pages
         uses: crazy-max/ghaction-github-pages@v2
         with:
-          build_dir: presentations/aggregates/dist
+          build_dir: presentations/aggregates/dist/
           absolute_build_dir: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
