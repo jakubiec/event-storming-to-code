@@ -4,8 +4,11 @@ on:
     paths:
       - 'presentations/**'
 jobs:
-  deploy:
+  deploy-presentation:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: presentations/aggregates
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
@@ -16,7 +19,7 @@ jobs:
       - name: Install slidev
         run:  npm i -g @slidev/cli
       - name: Build
-        run: cd presentations/aggregates && yes | slidev build --base ./
+        run: yes | slidev build --base /event-storming-to-code/
       - name: Deploy pages
         uses: crazy-max/ghaction-github-pages@v2
         with:
