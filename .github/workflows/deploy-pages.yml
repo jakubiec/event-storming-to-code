@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - 'presentations/**'
+  workflow_dispatch:
 jobs:
   deploy-presentation:
     runs-on: ubuntu-latest
@@ -23,6 +24,7 @@ jobs:
       - name: Deploy pages
         uses: crazy-max/ghaction-github-pages@v2
         with:
-          build_dir: dist
+          build_dir: presentations/aggregates/dist
+          absolute_build_dir: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
