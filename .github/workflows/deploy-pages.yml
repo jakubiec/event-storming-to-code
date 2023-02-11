@@ -1,5 +1,8 @@
 name: Deploy pages
-on: push
+on: 
+  push:
+    paths:
+      - 'presentations/**'
 jobs:
   deploy:
     runs-on: ubuntu-latest
