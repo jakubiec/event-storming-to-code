@@ -1,6 +1,4 @@
 ---
-theme: penguin
-colorSchema: dark
 layout: presenter
 presenterImage: 'https://avatars.githubusercontent.com/u/5813175?v=4'
 themeConfig:
@@ -8,6 +6,7 @@ themeConfig:
     eventLogo: 'media/github-mark.png'
 css: unocss
 class: 'text-white'
+hideInToc: true
 ---
 
 # Konrad Jakubiec
