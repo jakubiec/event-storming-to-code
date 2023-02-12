@@ -4,7 +4,7 @@ colorSchema: dark
 themeConfig:
     logoHeader: '/profile-photo-circle.png'
     eventUrl: 'https://github.com/jakubiec/event-storming-to-code'
-    eventLogo: '/github-mark.png'
+    eventLogo: 'https://jakubiec.github.io/event-storming-to-code/github-mark.png'
     #twitter: '@kjakubiec1'
     #twitterUrl: 'https://twitter.com/kjakubiec1'
 layout: intro

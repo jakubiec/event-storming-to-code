@@ -3,7 +3,7 @@ layout: presenter
 presenterImage: 'https://avatars.githubusercontent.com/u/5813175?v=4'
 themeConfig:
     eventUrl: 'https://github.com/jakubiec/event-storming-to-code'
-    eventLogo: 'media/github-mark.png'
+    eventLogo: 'https://jakubiec.github.io/event-storming-to-code/github-mark.png'
 css: unocss
 class: 'text-white'
 hideInToc: true
