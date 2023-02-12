@@ -2,7 +2,7 @@
 theme: penguin
 colorSchema: dark
 themeConfig:
-    logoHeader: '/profile-photo-circle.png'
+    logoHeader: 'https://jakubiec.github.io/event-storming-to-code/profile-photo-circle.png'
     eventUrl: 'https://github.com/jakubiec/event-storming-to-code'
     eventLogo: 'https://jakubiec.github.io/event-storming-to-code/github-mark.png'
     #twitter: '@kjakubiec1'
