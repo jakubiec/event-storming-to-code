@@ -1,5 +1,13 @@
-import svgLoader from 'vite-svg-loader'
+import { defineConfig } from 'vite'
+import Unocss from 'unocss/vite'
 
-export default {
-  plugins: [svgLoader()],
-}
+export default defineConfig({
+  plugins: [
+
+    Unocss({
+      /* options */
+      
+      configFile: 'unocss.config.ts',
+    }),
+  ],
+})
