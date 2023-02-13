@@ -33,3 +33,20 @@ src: pages/example-domain.md
 ---
 src: pages/event-storming.md
 ---
+
+---
+src: pages/example-mapping.md
+---
+
+---
+src: pages/command-coding-rule-template.md
+---
+
+---
+src: pages/event-storming.md
+hideInToc: true
+---
+
+---
+src: pages/aggregate-coding-rule-template.md
+---

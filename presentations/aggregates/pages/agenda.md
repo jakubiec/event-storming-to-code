@@ -4,4 +4,5 @@ hideInToc: true
 ---
 # Agenda
 
+<Toc />
 <CurrentPage />
