@@ -20,7 +20,7 @@ highlighter: shiki
 </v-clicks>
 
 
-<div v-click="6">
+<div v-click="7">
 <br/>
 <br/>
 
