@@ -2,11 +2,10 @@
 class: 'text-white'
 layout: new-section
 ---
-# Example mapping
-
+# Example Mapping
 #### Register new Musical Work
 
-```mermaid
+```mermaid{scale: 0.8}
 flowchart TB 
 
 subgraph Given[Given]

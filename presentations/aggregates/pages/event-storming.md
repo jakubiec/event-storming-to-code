@@ -15,13 +15,14 @@ MusicalWorkClaimed:::event
 MusicalWorkFullyClaimed:::event
 
 MusicalWorkOverclaimed:::error
+MusicalWorkAlreadyRegistered:::error
 
 subgraph MusicalWork[MusicalWork]
 direction LR
 
 NotRegisteredYet[Is not already registered]
 
-FulluClaimed[Is fully claimed]
+FullyClaimed[Is fully claimed]
 
 Overclaim[Is overclaimed]
 
@@ -36,6 +37,8 @@ ClaimMusicalWork-.-MusicalWork
 
 
 MusicalWork-.-MusicalWorkRegistered
+MusicalWork-.-MusicalWorkAlreadyRegistered
+
 MusicalWork-.-MusicalWorkClaimed
 MusicalWork-.-MusicalWorkFullyClaimed
 MusicalWork-.-MusicalWorkOverclaimed
@@ -46,6 +49,7 @@ linkStyle 2 stroke:#2b3846,color:red;
 linkStyle 3 stroke:#2b3846,color:red;
 linkStyle 4 stroke:#2b3846,color:red;
 linkStyle 5 stroke:#2b3846,color:red;
+linkStyle 6 stroke:#2b3846,color:red;
 
 classDef event fill:#f58318;
 classDef aggregate fill:#bd9d40;

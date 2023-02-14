@@ -20,13 +20,19 @@ classDef command fill:#48a1f0;
 classDef error fill:#f44336;
 ```
 
+<v-clicks>
+
+1. Where to put such method?
+2. What about parameters?
+
+</v-clicks>
 
 ::right::
 
 # Method
 
 ```java {all}
-public void registerMusicalWokr(...) {
+public void registerMusicalWork(...) {
     
       
 }
