@@ -17,7 +17,7 @@ hideInToc: true
 
 * 10 years of backend experience on JVM
 * DDD practitioner 
-* Growing speaker ([DDD Europe 2021 lighting talk](https://www.youtube.com/watch?v=QhcPk5zNk_Q))
+* DDD speaker ([DDD Europe 2021 lighting talk](https://www.youtube.com/watch?v=QhcPk5zNk_Q))
 * Lives in Gdynia since 2021
 * Drummer at [No Man's Slave](https://www.facebook.com/nomansslave) band
 

@@ -11,9 +11,10 @@ highlighter: shiki
 
 1. Aggregate Root == Class
 2. Command == Method
-3. Event == State change in class
-4. Example Mapping == Test Case
-5. Invariant == If statement
+3. Value object == Immutable Class
+4. Event == State change in class
+5. Example Mapping == Test Case
+6. Invariant == If statement
 
 
 </v-clicks>
